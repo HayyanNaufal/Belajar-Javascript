@@ -1,2 +1,2 @@
 # Belajar-Javascript
-File belajar java script
+File belajar java script dasar
