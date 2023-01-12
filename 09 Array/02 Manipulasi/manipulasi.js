@@ -33,7 +33,6 @@
 
 // method pada array
 
-var arr = ['hayyan', 'naufal', 'nofa'];
 
 // 1. join (menggabungkan seluruh isi array dan mengubahnya menjadi string)
 
@@ -54,3 +53,18 @@ var arr = ['hayyan', 'naufal', 'nofa'];
 
 // arr.shift();
 // console.log(arr.join(' - '));
+
+
+// 4. splice (menyisipkan elemen array di tengah)
+
+// arr,.splice(indexAwal, mauDihapusBerapa, elemenBaru1, elemenBaru2,..)
+
+// arr.splice(2, 0, 'tambah','fian');
+// console.log(arr.join());
+
+// 5.slice (mengiris array menjadi array baru)
+// slice(awal,akhir)
+
+var arr = ['hayyan', 'naufal', 'nofa', 'nita', 'fian'];
+var arr2 = arr.slice(2,4);
+console.log(arr2.join());
