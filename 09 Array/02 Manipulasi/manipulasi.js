@@ -94,9 +94,28 @@
 
 // 8. sort
 
-var angka = [1,6,10,9,30,8,3,4,6,7,5];
-angka.sort(function (a, b) {
-    return a-b;
-});
+// var angka = [1,6,10,9,30,8,3,4,6,7,5];
+// angka.sort(function (a, b) {
+//     return a-b;
+// });
 
-console.log(angka.join());
+// console.log(angka.join());
+
+// 9. filter 
+
+// jika tidak ada akan mengembalikan nilai kosong
+// var angka = [1,6,10,9,30,8,3,6,7,5];
+
+// var angka2 = angka.filter(function (x) {
+//     return x > 6;
+// }) 
+// console.log(angka2);
+
+// 10. find (hanya menampilkan satu nilai)
+
+var angka = [1,6,10,9,30,8,3,6,7,5];
+
+var angka2 = angka.find(function (x) {
+    return x > 9;
+}) 
+console.log(angka2);
